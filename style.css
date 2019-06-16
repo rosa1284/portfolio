@@ -8,7 +8,7 @@ html {
 
 h1 {
     font-size: 32px;
-    color: white;
+    color: #de1e60;
     text-align: center;
     margin: auto;
     width: 100%;
@@ -50,7 +50,7 @@ body {
     position: fixed;
     height: 300px;
     width: 100%;
-    background-color: #66b266;
+    background-color: #fc9f9d;
     z-index: 1;
 }
 
@@ -64,7 +64,7 @@ header {
 }
 
 .backgroundcolor1 {
-    background-color: #66b266;
+    background-color: #fc9f9d;
     height: 100px;
     width: 100%;
     padding-top: 49px;
@@ -302,7 +302,7 @@ header {
 .line {
     width: 150px;
     height: 3px;
-    background-color: #008000;
+    background-color: #015451;
     margin: 0 auto;
 }
 
@@ -312,6 +312,7 @@ header {
     justify-content: center;
     padding-top: 30px;
     flex-wrap: wrap;
+
 }
 
 .botton_wrapper a {
@@ -321,10 +322,11 @@ header {
     text-decoration: none;
     padding: 10px;
     color: black;
-    border: 2px solid magenta;
     margin: 10px;
     width: 140px;
-
+    border: 2px solid #de1e60;
+    font-weight: bold;
+    font-size: 12px;
 
 }
 
@@ -458,6 +460,7 @@ header {
 .about_content p {
     padding-top: 10px;
 }
+
 
 #redesign .img {
     background-image: url(images/booking.jpg);
